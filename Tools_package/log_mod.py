@@ -8,3 +8,13 @@ log mod
 
 import threading
 import logging
+
+
+class LogMod:
+
+    def tests(self):
+
+        logging.warning("check check check")
+
+
+LogMod().tests()
